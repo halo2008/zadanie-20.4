@@ -17,7 +17,7 @@
     "init:dirs": "mkdir src build src/container src/components",
     "init:files": "touch README.md src/index.html src/index.js src/container/app.js .babelrc webpack.config.js src/components/Title.js src/components/Todo.js src/components/TodoForm.js src/components/TodoList.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
-    "start": "webpack-dev-server --hot --env development"
+    "start": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -26,8 +26,7 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
+    "babel-loader": "^7.0.0",
     "css-loader": "^1.0.1",
     "html-webpack-plugin": "^3.2.0",
     "optimize-js-plugin": "0.0.4",
@@ -40,7 +39,6 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "babel-preset-react": "^6.24.1",
     "uuid": "^3.3.2"
   }
 }
